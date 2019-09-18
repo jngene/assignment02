@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Oranienbaum&display=swap');
+
+/* ******    ******* */
+body {
+	font-family: 'Oranienbaum', serif;
+	font-size: large;
+	color: #333333;
+	line-height: 1.5em;
+}
+
+h1, h2, h3 {
+	font-family: 'Fredericka the Great', cursive;
+	letter-spacing: 0.15em;
+	color: black;
+}
+
+
+
+.container1 {
+	width: 65%;
+	margin: 20px auto;
+}
+.top {
+	float: left;
+	width: 98%;
+	height: 100px;
+	outline: 1px solid white;
+}
+
+.vanessa, .kat {
+	float: left;
+	width: 31%;
+	height: 200px;
+	outline: 2px solid black;
+}
+
+.alyssa {
+	float: left;
+	width: 32%;
+	height: 200px;
+	outline: 2px solid white;
+}
