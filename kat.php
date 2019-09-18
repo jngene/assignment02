@@ -1,4 +1,7 @@
-<?php $currentPage = "kfuss | Clusters";include "inc/html-top-k.inc";?>
+<?php 
+$currentPage = "kfuss | Clusters";
+include "inc/html-top-k.inc";
+?>
 
 	<?php include "inc/nav-k.php"; ?>
 

@@ -1,4 +1,7 @@
-<?php $currentPage = "Vanessa | Today";include "inc/html-top-v.inc";?>
+<?php
+$currentPage = "Vanessa | Today";
+include "inc/html-top-v.inc";
+?>
 
 <?php include "inc/nav-v.php"?>
 
