@@ -18,7 +18,7 @@
 		</header>
 
 		<main>
-			<p>Hello World! Welcome to our smash website m,kj Junting Chen is our Information Architect, Jialin Huo is our Visual Designer, and Jennifer is our Technical Coder. Click on the links to learn more about us.</p>
+			<p>Hello World! Welcome to our smash website, Junting Chen is our Information Architect, Jialin Huo is our Visual Designer, and Jennifer is our Technical Coder. Click on the links to learn more about us.</p>
 		</main>
 
 		
