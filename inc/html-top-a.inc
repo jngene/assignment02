@@ -13,7 +13,7 @@
 	<header>
 		<a href="alyssa.php">
 			<h1>Alyssa L Nelson</h1>
-			<img src="images/alyssa.jpg" alt="alyssa">
+			<img src="images/alyssa.jpg" alt="Alyssa L Nelson">
 		</a>
 	</header>
 

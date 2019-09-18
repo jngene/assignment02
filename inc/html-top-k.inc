@@ -13,7 +13,7 @@
 	<header>
 		<a href="Kat.php">
 			<h1>Kat Fuss</h1>
-			<img src="images/kat.jpg" alt="kat">
+			<img src="images/kat.jpg" alt="Kat Fuss">
 		</a>
 	</header>
 
