@@ -3,7 +3,7 @@ $currentPage = "Alyssa Nelson | Now";
 include "inc/html-top-a.inc";
 ?>
 
-	<?php include "inc/nav-a.php"?>
+	<?php include "inc/nav-a.inc"; ?>
 
 	<main>
 		<h1>Now</h1>

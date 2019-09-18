@@ -3,7 +3,7 @@ $currentPage = "Alyssa Nelson | Intro";
 include "inc/html-top-a.inc";
 ?>
 
-	<?php include "inc/nav-a.inc"?>
+	<?php include "inc/nav-a.inc"; ?>
 
 	<main>
 		<p>I grew up in Victor, New York which is very close to the University of Rochester. Growing up, I really enjoyed soccer and playing sports. I was on the soccer and track teams all the way up until the ninth grade. My mindset changed when I performed in my first musical.</p>
