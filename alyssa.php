@@ -3,9 +3,7 @@ $currentPage = "anels28 | Index";
 include "inc/html-top-a.inc";
 ?>
 
-<?php
-	include "inc/nav.php"
-?>
+<?php include "inc/nav-a.php"?>
 
 	<main>
 
@@ -16,8 +14,4 @@ include "inc/html-top-a.inc";
 
 	</main>
 
-	<footer>CSC 174: Advanced Front-end Web Design and Development</footer>
-
-	<?php include "inc/scripts.php";?>
-
-</body>
+	<?php include "inc/footer.php";?>

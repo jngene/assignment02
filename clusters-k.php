@@ -1,6 +1,6 @@
 <?php $currentPage = "kfuss | Clusters";include "inc/html-top-k.inc";?>
 
-	<?php include "inc/nav.inc"; ?>
+	<?php include "inc/nav-k.inc"; ?>
 
 	<main>
 		<h1>Clusters</h1>
@@ -8,8 +8,4 @@
 
 	</main>
 
-	<footer>CSC 174: Advanced Front-end Web Design and Development</footer>
-
-	<?php include "inc/scripts.php";?>
-
-</body>
+	<?php include "inc/footer.php";?

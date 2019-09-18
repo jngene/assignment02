@@ -1,4 +1,4 @@
-<?php include "inc/html-top-v.php"; ?>
+<?php $currentPage = "Vanessa | Today";include "inc/html-top-v.inc";?>
 
 <?php include "inc/nav-v.php"?>
 
@@ -9,8 +9,4 @@
 		
 	</main>
 
-	<footer>CSC 174: Advanced Front-end Web Design and Development</footer>
-
-	<?php include "inc/scripts.php"; ?>
-
-</body>
+	<?php include "inc/footer.php"; ?>
