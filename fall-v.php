@@ -1,6 +1,9 @@
-<?php $currentPage = "Vanessa | Today";include "inc/html-top-v.inc";?>
+<?php
+$currentPage = "Vanessa Acevedo | Fall 2018";
+include "inc/html-top-v.inc";
+?>
 
-<?php include "inc/nav-v.php"?>
+	<?php include "inc/nav-v.inc"?>
 	<main>
 		<h1>Fall 2018</h1>
 		
@@ -8,4 +11,5 @@
 		
 	</main>
 
-	<?php include "inc/footer.php"; ?>
+	<?php include "inc/main-nav.inc"; ?>
+	<?php include "inc/footer.inc"; ?>

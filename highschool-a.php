@@ -1,9 +1,9 @@
 <?php 
-$currentPage = "anels28 | Highschool";
+$currentPage = "Alyssa Nelson | High School Theatre";
 include "inc/html-top-a.inc";
 ?>
 
-	<?php include "inc/nav-a.php"?>
+	<?php include "inc/nav-a.php"; ?>
 
 	<main>
 		<h1>High School Theatre</h1>
@@ -12,5 +12,5 @@ include "inc/html-top-a.inc";
 
 	</main>
 
-	<?php include "inc/footer.php";?>
-
+	<?php include "inc/main-nav.inc"; ?>
+	<?php include "inc/footer.inc"; ?>
