@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 
-	<body class="container">
+	<body class="container1">
 		<main>
 			<div class="top">
 				<p>Hello World! Welcome to our smash website, Junting Chen is our Information Architect, Jialin Huo is our Visual Designer, and Jennifer is our Technical Coder. Click on the links to learn more about us.</p>
