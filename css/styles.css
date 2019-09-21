@@ -54,7 +54,7 @@ ul {
 
 .area {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto auto;
 	grid-gap: 10px;
 	padding: 0px;
 
@@ -66,9 +66,9 @@ div.area {
 }
 
 div.vanessa, div.alyssa, div.kat {
-	width: 80%;
+	width: 90%;
 	background-color: white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
 	margin-bottom: 25px;
 }
 
@@ -81,6 +81,7 @@ nav li {
 	font-family: 'Lacquer', sans-serif;
 	font-size: x-large;
 	background-color: white;
+	padding: 10px 5px 10px 5px;
 }
 
 @media ( max-width: 375px ) {
@@ -90,17 +91,21 @@ nav li {
 	nav li { margin-left: 0; }
 }
 .homenav {
-
+	position: absolute;
+	text-align: center;
 }
 
 .homenav ul {
-
+	margin-left: 0;
+	border: 1px;
+	display: block;
 }
 
 .homenav li {
 	font-family: 'Lacquer', sans-serif;
 	font-size: 25px;
 	background-color: white;
+	border: 1px;
 }
 
 /**** LAYOUT ****/
@@ -110,8 +115,10 @@ nav li {
 	max-width: 960px;
 	display: grid;
 }
+
 @media ( max-width: 375px) {
 	.container {display: block;}
+
 }
 footer {grid-column: 1 / 2; }
 

@@ -27,24 +27,27 @@
 			<div class="vanessa">
 				<a href="vanessa.php">
 				<img src="images/vanessa.jpg" alt="Vanessa Acevedo" style="width: 95%">
-				<p>Vanessa</p>
 				</a>
+				<p>Vanessa</p>
 			</div>
 			
 			<div class="alyssa">
 				<a href="alyssa.php">
 				<img src="images/alyssa.jpg" alt="Alyssa Nelson" style="width: 95%">
-				<p>Alyssa</p>
 				</a>
+				<p>Alyssa</p>
 			</div>
+
 			<div class="kat">
 				<a href="kat.php">
 				<img src="images/kat.jpg" alt="Kat Fuss" style="width: 95%">
-				<p>Kat</p>
 				</a>
+				<p>Kat</p>
+			</div>
+
+			<div>
+				<?php include "inc/main-nav.inc"; ?>
 			</div>
 		</main>
 
-
-	<?php include "inc/main-nav.inc"; ?>
 	<?php include "inc/footer.inc"; ?>
