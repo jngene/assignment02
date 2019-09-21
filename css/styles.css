@@ -15,10 +15,13 @@ h1, h2, h3 {
 }
 
 .header {
-	margin-bottom: 20px; 
+	display: flex;
+	align-items: center;
+	width: 100%
 }
 .header img {
-	margin: 0px;
+	margin: 10px 10px 0px 0px;
+	float: none;
 }
 
 .container1 {
@@ -30,7 +33,7 @@ h1, h2, h3 {
 	align-items: center;
 }
 
-.vanessa, .kat {
+.vanessa {
 	float: left;
 	width: 31%;
 	height: 200px;
@@ -39,5 +42,11 @@ h1, h2, h3 {
 .alyssa {
 	float: left;
 	width: 32%;
+	height: 200px;
+}
+
+.kat {
+	float: left;
+	width: 31%;
 	height: 200px;
 }
