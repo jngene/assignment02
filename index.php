@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 
-	<body>
+	<body class="container">
 		<div class="header">
 		<div class="container1">
 		<header>
@@ -23,21 +23,25 @@
 
 		</div><!--.header-->
 
-		<main>
+		<main class="area">
 			<div class="vanessa">
-				<h2>Vanessa Acevedo</h2>
 				<a href="vanessa.php">
-				<img src="images/vanessa.jpg" alt="Vanessa Acevedo">
+				<img src="images/vanessa.jpg" alt="Vanessa Acevedo" style="width: 95%">
+				<p>Vanessa</p>
+				</a>
 			</div>
+			
 			<div class="alyssa">
-				<h2>Alyssa Nelson</h2>
 				<a href="alyssa.php">
-				<img src="images/alyssa.jpg" alt="Alyssa Nelson">
+				<img src="images/alyssa.jpg" alt="Alyssa Nelson" style="width: 95%">
+				<p>Alyssa</p>
+				</a>
 			</div>
 			<div class="kat">
-				<h2>Kat Fuss</h2>
 				<a href="kat.php">
-				<img src="images/kat.jpg" alt="Kat Fuss">
+				<img src="images/kat.jpg" alt="Kat Fuss" style="width: 95%">
+				<p>Kat</p>
+				</a>
 			</div>
 		</main>
 

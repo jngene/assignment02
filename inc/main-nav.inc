@@ -1,4 +1,4 @@
-<nav>
+<nav class="homenav">
 	<ul>
 		<li><a href="index.php">Home</a></li>
 		<li><a href="alyssa.php">Alyssa Nelson</a></li>

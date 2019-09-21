@@ -1,18 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Open+Sans|Rock+Salt&display=swap');
 
 /* ******    ******* */
 body {
-	font-family: 'Oranienbaum', serif;
-	font-size: large;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
 	color: #333333;
-	line-height: 1.5em;
+	line-height: 1.2em;
 }
 
 h1, h2, h3 {
-	font-family: 'Fredericka the Great', cursive;
-	letter-spacing: 0.15em;
+	font-family: 'Rock Salt', cursive;
+	letter-spacing: 0.1em;
 	color: black;
 }
+
+a {
+	display: block;
+	padding: 0 10px;
+	color: black;
+}
+a:hover {
+	color: grey;
+}
+a:hover img {
+	opacity: 0.7;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+
+}
+
 
 .header {
 	display: flex;
@@ -26,27 +45,79 @@ h1, h2, h3 {
 
 .container1 {
 	margin: 0 auto;
-	width: 90%;
+	width: 100%;
 	max-width: 960px;
 
-	display: flex;
+	display: grid;
 	align-items: center;
 }
 
-.vanessa {
-	float: left;
-	width: 31%;
-	height: 200px;
+.area {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	padding: 0px;
+
 }
 
-.alyssa {
-	float: left;
-	width: 32%;
-	height: 200px;
+div.area {
+	text-align: center;
+	padding: 10px 20px;
 }
 
-.kat {
-	float: left;
-	width: 31%;
-	height: 200px;
+div.vanessa, div.alyssa, div.kat {
+	width: 80%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
+	margin-bottom: 25px;
+}
+
+/**** BASE - NAV ****/
+nav ul {
+
+}
+
+nav li {
+	font-family: 'Lacquer', sans-serif;
+	font-size: x-large;
+	background-color: white;
+}
+
+@media ( max-width: 375px ) {
+	nav ul {
+		display: block;
+	}
+	nav li { margin-left: 0; }
+}
+.homenav {
+
+}
+
+.homenav ul {
+
+}
+
+.homenav li {
+	font-family: 'Lacquer', sans-serif;
+	font-size: 25px;
+	background-color: white;
+}
+
+/**** LAYOUT ****/
+.container {
+	margin: 25px auto;
+	width: 90%;
+	max-width: 960px;
+	display: grid;
+}
+@media ( max-width: 375px) {
+	.container {display: block;}
+}
+footer {grid-column: 1 / 2; }
+
+
+/**** STATE ****/
+.is-current {
+	background-color: black;
+	color: white;
 }
