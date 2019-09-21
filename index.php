@@ -13,8 +13,8 @@
 		<div class="container1">
 		<header>
 			<a href="index.php">
-				<h1>Team Seattle</h1>
 				<img src="images/seattle.jpeg" alt="seattle">
+				<h1>Team Seattle</h1>
 			</a>
 			<p>Hello World! Welcome to our smash website! Junting Chen is our Information Architect, Jialin Huo is our Visual Designer, and Jennifer is our Technical Coder. Click on the links to learn more.</p>
 		</header>
@@ -24,8 +24,6 @@
 		</div><!--.header-->
 
 		<main>
-			<div class="top">
-			</div>
 			<div class="vanessa">
 				<h2>Vanessa Acevedo</h2>
 				<a href="vanessa.php">
