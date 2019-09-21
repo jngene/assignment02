@@ -14,29 +14,30 @@ h1, h2, h3 {
 	color: black;
 }
 
-
+.header {
+	margin-bottom: 20px; 
+}
+.header img {
+	margin: 0px;
+}
 
 .container1 {
-	width: 65%;
-	margin: 20px auto;
-}
-.top {
-	float: left;
-	width: 98%;
-	height: 100px;
-	outline: 1px solid white;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 960px;
+
+	display: flex;
+	align-items: center;
 }
 
 .vanessa, .kat {
 	float: left;
 	width: 31%;
 	height: 200px;
-	outline: 2px solid black;
 }
 
 .alyssa {
 	float: left;
 	width: 32%;
 	height: 200px;
-	outline: 2px solid white;
 }
