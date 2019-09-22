@@ -12,5 +12,5 @@ include "inc/html-top-v.inc";
 		
 	</main>
 
-	<?php include "inc/main-nav.inc"; ?>
+	<?php include "inc/main-nav1.inc"; ?>
 	<?php include "inc/footer.inc"; ?>
