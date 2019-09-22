@@ -65,7 +65,7 @@ ul {
 .area {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	grid-gap: 25px;
+	grid-gap: 10px;
 	padding: 0px;
 }
 
@@ -75,7 +75,8 @@ div.area {
 }
 
 div.vanessa, div.alyssa, div.kat {
-	width: 90%;
+	width: 80%;
+	height: 80%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
 	margin-bottom: 30px;
@@ -104,21 +105,21 @@ nav li {
 	nav li { margin-left: 0; }
 }
 .homenav {
-	position: absolute;
 	text-align: center;
 }
 .homenav ul {
-	margin-left: 60px;
-	margin-top: 20px;
+	margin-left: 35px;
+	margin-top: 3px;
 	border: 1px;
 	display: block;
 }
 .homenav li {
 	font-family: 'Lacquer', sans-serif;
-	font-size: 25px;
+	font-size: 22px;
 	background-color: white;
 	border: 1px solid;
-	padding: 10px 5px 10px 5px;
+	box-shadow: 3px 3px grey;
+	padding: 8px 8px 8px 8px;
 }
 .homenav li {
 	margin-left: -60px;

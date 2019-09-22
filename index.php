@@ -13,7 +13,7 @@
 		<div class="container1">
 		<header>
 			<a href="index.php">
-				<img src="images/seattle.jpeg" alt="seattle">
+				<img src="images/seattle.jpeg" alt="seattle" style="width: 100%">
 				<h1 class="teamtitle">Team Seattle</h1>
 			</a>
 			<p>Hello World! Welcome to our smash website! Junting Chen is our Information Architect, Jialin Huo is our Visual Designer, and Jennifer is our Technical Coder. Click on the links to learn more.</p>
