@@ -12,7 +12,7 @@
 	<header>
 		<a href="vanessa.php">
 			<h1>Vanessa Acevedo</h1>
-			<img src="images/vanessa.jpg" alt="Vanessa Acevedo">
+			<img src="images/vanessa.jpg" alt="Vanessa Acevedo" align="right">
 		</a>
 	</header>
 

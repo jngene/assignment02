@@ -8,10 +8,19 @@ body {
 	line-height: 1.2em;
 }
 
-h1, h2, h3 {
+h1 {
 	font-family: 'Rock Salt', cursive;
 	letter-spacing: 0.1em;
 	color: black;
+	text-align: right;
+}
+.teamtitle {text-align: left;}
+
+h2 {
+	font-family: 'Rock Salt', cursive;
+	letter-spacing: 0.1em;
+	color: black;
+	text-align: left;
 }
 
 a {
@@ -20,7 +29,7 @@ a {
 	color: black;
 }
 a:hover {
-	color: grey;
+	color: blue;
 }
 a:hover img {
 	opacity: 0.7;
@@ -29,7 +38,9 @@ a:hover img {
 ul {
 	list-style-type: none;
 	margin: 0;
-
+	padding-left: 0;
+	text-indent: -20px;
+	margin-left: 50px;
 }
 
 
@@ -55,26 +66,28 @@ ul {
 .area {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	grid-gap: 10px;
+	grid-gap: 25px;
 	padding: 0px;
-
 }
 
 div.area {
 	text-align: center;
-	padding: 10px 20px;
+	padding: 20px 20px;
 }
 
 div.vanessa, div.alyssa, div.kat {
 	width: 90%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 }
 
 /**** BASE - NAV ****/
 nav ul {
-
+	text-indent: 0;
+	margin-left: 0;
+	display: flex;
+	justify-content: flex-end;
 }
 
 nav li {
@@ -82,6 +95,7 @@ nav li {
 	font-size: x-large;
 	background-color: white;
 	padding: 10px 5px 10px 5px;
+	margin-right: 20px;
 }
 
 @media ( max-width: 375px ) {
@@ -94,19 +108,36 @@ nav li {
 	position: absolute;
 	text-align: center;
 }
-
 .homenav ul {
-	margin-left: 0;
+	margin-left: 60px;
+	margin-top: 20px;
 	border: 1px;
 	display: block;
 }
-
 .homenav li {
 	font-family: 'Lacquer', sans-serif;
 	font-size: 25px;
 	background-color: white;
-	border: 1px;
+	border: 1px solid;
+	padding: 10px 5px 10px 5px;
 }
+.homenav li {
+	margin-left: -60px;
+	margin-bottom: 10px;
+}
+
+
+/**** BASE - ASIDE ****/
+aside {
+	margin-left: 10px;
+	margin-top: 20px;
+	align-self: end;
+}
+
+aside ul {
+	margin-right: 10px;
+}
+
 
 /**** LAYOUT ****/
 .container {
@@ -120,8 +151,11 @@ nav li {
 	.container {display: block;}
 
 }
-footer {grid-column: 1 / 2; }
-
+footer {
+	font-family: 'Lacquer', sans-serif;
+	font-size: 20px;
+	grid-column: 1 / 2;
+}
 
 /**** STATE ****/
 .is-current {
