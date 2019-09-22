@@ -1,5 +1,5 @@
 <?php 
-$currentPage = "Kat Fuss | CLusters";
+$currentPage = "Kat Fuss | Clusters";
 include "inc/html-top-k.inc";
 ?>
 
